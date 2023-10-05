@@ -1,5 +1,5 @@
 {
-  "version": "1.18.3",
+  "version": "1.25.5",
   "type": "session",
   "createdWith": "Open Stage Control",
   "content": {
@@ -27,7 +27,6 @@
     "layout": "vertical",
     "justify": "start",
     "gridTemplate": "",
-    "verticalTabs": false,
     "ignoreDefaults": false,
     "widgets": [
       {
@@ -656,7 +655,8 @@
                     "onValue": "set(\"connect\", 1)",
                     "lock": false,
                     "onCreate": "",
-                    "borderRadius": "auto"
+                    "borderRadius": "auto",
+                    "maxLength": ""
                   }
                 ],
                 "variables": {},
@@ -688,7 +688,6 @@
                 "padding": 1,
                 "justify": "start",
                 "gridTemplate": "",
-                "verticalTabs": false,
                 "traversing": false,
                 "ignoreDefaults": false,
                 "innerPadding": false,
@@ -700,7 +699,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               },
               {
                 "type": "panel",
@@ -823,7 +823,6 @@
                 "padding": 1,
                 "justify": "start",
                 "gridTemplate": "",
-                "verticalTabs": false,
                 "traversing": false,
                 "ignoreDefaults": false,
                 "innerPadding": false,
@@ -835,7 +834,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               },
               {
                 "type": "panel",
@@ -1001,7 +1001,6 @@
                 "padding": 1,
                 "justify": "start",
                 "gridTemplate": "",
-                "verticalTabs": false,
                 "traversing": false,
                 "ignoreDefaults": false,
                 "innerPadding": false,
@@ -1013,7 +1012,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               },
               {
                 "type": "panel",
@@ -1106,7 +1106,8 @@
                     "onValue": "",
                     "lock": false,
                     "onCreate": "",
-                    "borderRadius": "auto"
+                    "borderRadius": "auto",
+                    "tabsPosition": "top"
                   }
                 ],
                 "variables": {},
@@ -1138,7 +1139,6 @@
                 "padding": 1,
                 "justify": "start",
                 "gridTemplate": "",
-                "verticalTabs": false,
                 "traversing": false,
                 "ignoreDefaults": false,
                 "innerPadding": false,
@@ -1150,7 +1150,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               },
               {
                 "type": "panel",
@@ -1639,7 +1640,6 @@
                 "layout": "horizontal",
                 "justify": "start",
                 "gridTemplate": "",
-                "verticalTabs": false,
                 "traversing": false,
                 "innerPadding": false,
                 "colorBg": "auto",
@@ -1650,7 +1650,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               },
               {
                 "type": "panel",
@@ -1908,7 +1909,6 @@
                 "padding": 1,
                 "justify": "start",
                 "gridTemplate": "",
-                "verticalTabs": false,
                 "traversing": false,
                 "ignoreDefaults": false,
                 "innerPadding": false,
@@ -1920,7 +1920,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               },
               {
                 "type": "html",
@@ -2129,7 +2130,6 @@
                 "padding": "auto",
                 "justify": "start",
                 "gridTemplate": "",
-                "verticalTabs": false,
                 "traversing": false,
                 "ignoreDefaults": false,
                 "innerPadding": false,
@@ -2141,7 +2141,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               }
             ],
             "innerPadding": false,
@@ -2156,7 +2157,8 @@
             "onValue": "",
             "lock": false,
             "onCreate": "",
-            "borderRadius": "auto"
+            "borderRadius": "auto",
+            "tabsPosition": "top"
           }
         ],
         "variables": "@{parent.variables}",
@@ -2189,7 +2191,6 @@
         "padding": 0,
         "justify": "start",
         "gridTemplate": "",
-        "verticalTabs": false,
         "traversing": false,
         "ignoreDefaults": false,
         "innerPadding": false,
@@ -2201,7 +2202,8 @@
         "onValue": "",
         "lock": false,
         "onCreate": "",
-        "borderRadius": "auto"
+        "borderRadius": "auto",
+        "tabsPosition": "top"
       },
       {
         "type": "panel",
@@ -2225,7 +2227,6 @@
         "layout": "horizontal",
         "justify": "start",
         "gridTemplate": "",
-        "verticalTabs": false,
         "traversing": false,
         "scroll": true,
         "variables": {},
@@ -2609,6 +2610,97 @@
             "decoupled": true
           },
           {
+            "type": "button",
+            "id": "addplaylistsrecenabled",
+            "css": "class: no-pulse",
+            "preArgs": [],
+            "value": "1",
+            "address": "auto",
+            "width": 55,
+            "linkId": "",
+            "default": "",
+            "left": "auto",
+            "top": "auto",
+            "height": "auto",
+            "visible": true,
+            "expand": "false",
+            "colorText": "auto",
+            "colorWidget": "red",
+            "colorStroke": "auto",
+            "colorFill": "auto",
+            "alphaStroke": "auto",
+            "alphaFillOff": "#{OSC{@{this.address}, 0}?0.5:0.15}",
+            "alphaFillOn": 0.25,
+            "padding": "auto",
+            "typeTags": "",
+            "target": [],
+            "ignoreDefaults": false,
+            "label": "NEW PLAYLIST",
+            "on": 1,
+            "off": 0,
+            "bypass": false,
+            "doubleTap": false,
+            "decimals": 2,
+            "mode": "tap",
+            "interaction": true,
+            "colorTextOn": "auto",
+            "lock": false,
+            "comments": "",
+            "lineWidth": "auto",
+            "borderRadius": "auto",
+            "html": "",
+            "vertical": false,
+            "wrap": false,
+            "decoupled": false,
+            "onValue": "send('/access_action/Editor/new-playlists-for-armed-tracks')"
+          },
+          {
+            "type": "button",
+            "id": "save",
+            "css": "class: no-pulse",
+            "preArgs": [],
+            "value": "",
+            "address": "/save_state",
+            "width": 55,
+            "linkId": "",
+            "default": "",
+            "left": "auto",
+            "top": "auto",
+            "height": "auto",
+            "visible": true,
+            "expand": "false",
+            "colorText": "auto",
+            "colorWidget": "green",
+            "colorStroke": "auto",
+            "colorFill": "auto",
+            "alphaStroke": "auto",
+            "alphaFillOff": "#{OSC{@{this.address}, 0}?0.5:0.15}",
+            "alphaFillOn": 0.25,
+            "padding": "auto",
+            "typeTags": "",
+            "target": [],
+            "ignoreDefaults": false,
+            "label": "SAVE 4",
+            "on": 1,
+            "off": 0,
+            "bypass": false,
+            "doubleTap": false,
+            "decimals": 2,
+            "mode": "tap",
+            "interaction": true,
+            "colorTextOn": "auto",
+            "lock": false,
+            "comments": "",
+            "lineWidth": "auto",
+            "borderRadius": "auto",
+            "html": "",
+            "vertical": false,
+            "wrap": false,
+            "decoupled": false,
+            "onCreate": "",
+            "onValue": ""
+          },
+          {
             "type": "text",
             "id": "time",
             "linkId": "",
@@ -2747,7 +2839,8 @@
         "onValue": "",
         "lock": false,
         "onCreate": "",
-        "borderRadius": "auto"
+        "borderRadius": "auto",
+        "tabsPosition": "top"
       },
       {
         "type": "panel",
@@ -2807,7 +2900,8 @@
             "onValue": "",
             "lock": false,
             "onCreate": "",
-            "borderRadius": "auto"
+            "borderRadius": "auto",
+            "tabsPosition": "top"
           },
           {
             "type": "panel",
@@ -2958,7 +3052,8 @@
                         "onValue": "",
                         "lock": false,
                         "onCreate": "",
-                        "borderRadius": "auto"
+                        "borderRadius": "auto",
+                        "maxLength": ""
                       },
                       {
                         "type": "text",
@@ -3026,7 +3121,6 @@
                     "padding": "auto",
                     "justify": "start",
                     "gridTemplate": "",
-                    "verticalTabs": false,
                     "traversing": false,
                     "ignoreDefaults": false,
                     "innerPadding": true,
@@ -3038,7 +3132,8 @@
                     "onValue": "",
                     "lock": false,
                     "onCreate": "",
-                    "borderRadius": "auto"
+                    "borderRadius": "auto",
+                    "tabsPosition": "top"
                   },
                   {
                     "type": "panel",
@@ -3087,7 +3182,8 @@
                         "onValue": "",
                         "lock": false,
                         "onCreate": "",
-                        "borderRadius": "auto"
+                        "borderRadius": "auto",
+                        "maxLength": ""
                       },
                       {
                         "type": "knob",
@@ -3257,7 +3353,6 @@
                     "padding": "auto",
                     "justify": "start",
                     "gridTemplate": "",
-                    "verticalTabs": false,
                     "traversing": false,
                     "ignoreDefaults": false,
                     "innerPadding": true,
@@ -3269,7 +3364,8 @@
                     "onValue": "",
                     "lock": false,
                     "onCreate": "",
-                    "borderRadius": "auto"
+                    "borderRadius": "auto",
+                    "tabsPosition": "top"
                   },
                   {
                     "type": "panel",
@@ -3303,7 +3399,6 @@
                     "layout": "vertical",
                     "justify": "start",
                     "gridTemplate": "20rem auto / auto",
-                    "verticalTabs": false,
                     "traversing": false,
                     "scroll": true,
                     "variables": "@{parent.variables}",
@@ -3318,7 +3413,8 @@
                     "onValue": "set('plugins_modal', 1)",
                     "lock": false,
                     "onCreate": "",
-                    "borderRadius": "auto"
+                    "borderRadius": "auto",
+                    "tabsPosition": "top"
                   },
                   {
                     "type": "panel",
@@ -3597,7 +3693,6 @@
                     "layout": "grid",
                     "justify": "start",
                     "gridTemplate": 6,
-                    "verticalTabs": false,
                     "traversing": false,
                     "innerPadding": true,
                     "colorBg": "auto",
@@ -3608,7 +3703,8 @@
                     "onValue": "",
                     "lock": false,
                     "onCreate": "",
-                    "borderRadius": "auto"
+                    "borderRadius": "auto",
+                    "tabsPosition": "top"
                   },
                   {
                     "type": "panel",
@@ -3787,7 +3883,6 @@
                     "layout": "#{\n@{display_compact_fader} ? \"horizontal\" : \"default\"\n}",
                     "justify": "center",
                     "gridTemplate": "",
-                    "verticalTabs": false,
                     "traversing": false,
                     "innerPadding": true,
                     "colorBg": "auto",
@@ -3798,7 +3893,8 @@
                     "onValue": "",
                     "lock": false,
                     "onCreate": "",
-                    "borderRadius": "auto"
+                    "borderRadius": "auto",
+                    "tabsPosition": "top"
                   },
                   {
                     "type": "input",
@@ -3840,7 +3936,8 @@
                     "onValue": "",
                     "lock": false,
                     "onCreate": "",
-                    "borderRadius": "auto"
+                    "borderRadius": "auto",
+                    "maxLength": ""
                   }
                 ],
                 "scroll": true,
@@ -3875,7 +3972,6 @@
                 "padding": 0,
                 "justify": "start",
                 "gridTemplate": "",
-                "verticalTabs": false,
                 "traversing": false,
                 "ignoreDefaults": false,
                 "innerPadding": false,
@@ -3887,7 +3983,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               },
               {
                 "type": "matrix",
@@ -3938,7 +4035,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               },
               {
                 "type": "button",
@@ -4063,7 +4161,6 @@
             "padding": 0,
             "justify": "start",
             "gridTemplate": "",
-            "verticalTabs": false,
             "traversing": false,
             "ignoreDefaults": false,
             "innerPadding": false,
@@ -4075,7 +4172,8 @@
             "onValue": "",
             "lock": false,
             "onCreate": "",
-            "borderRadius": "auto"
+            "borderRadius": "auto",
+            "tabsPosition": "top"
           },
           {
             "type": "panel",
@@ -4099,7 +4197,6 @@
             "layout": "vertical",
             "justify": "start",
             "gridTemplate": "",
-            "verticalTabs": false,
             "traversing": false,
             "scroll": true,
             "variables": {
@@ -4251,7 +4348,8 @@
                     "onValue": "",
                     "lock": false,
                     "onCreate": "",
-                    "borderRadius": "auto"
+                    "borderRadius": "auto",
+                    "maxLength": ""
                   },
                   {
                     "type": "text",
@@ -4319,7 +4417,6 @@
                 "padding": "auto",
                 "justify": "start",
                 "gridTemplate": "",
-                "verticalTabs": false,
                 "traversing": false,
                 "ignoreDefaults": false,
                 "innerPadding": true,
@@ -4331,7 +4428,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               },
               {
                 "type": "panel",
@@ -4380,7 +4478,8 @@
                     "onValue": "",
                     "lock": false,
                     "onCreate": "",
-                    "borderRadius": "auto"
+                    "borderRadius": "auto",
+                    "maxLength": ""
                   },
                   {
                     "type": "knob",
@@ -4500,7 +4599,6 @@
                 "padding": "auto",
                 "justify": "start",
                 "gridTemplate": "",
-                "verticalTabs": false,
                 "traversing": false,
                 "ignoreDefaults": false,
                 "innerPadding": true,
@@ -4512,7 +4610,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               },
               {
                 "type": "panel",
@@ -4546,7 +4645,6 @@
                 "layout": "grid",
                 "justify": "start",
                 "gridTemplate": 1,
-                "verticalTabs": false,
                 "traversing": false,
                 "scroll": true,
                 "variables": "@{parent.variables}",
@@ -4608,7 +4706,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               },
               {
                 "type": "panel",
@@ -4783,7 +4882,6 @@
                 "layout": "#{\n@{display_compact_fader} ? \"horizontal\" : \"default\"\n}",
                 "justify": "center",
                 "gridTemplate": "",
-                "verticalTabs": false,
                 "traversing": false,
                 "innerPadding": true,
                 "colorBg": "auto",
@@ -4794,7 +4892,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "tabsPosition": "top"
               },
               {
                 "type": "input",
@@ -4836,7 +4935,8 @@
                 "onValue": "",
                 "lock": false,
                 "onCreate": "",
-                "borderRadius": "auto"
+                "borderRadius": "auto",
+                "maxLength": ""
               }
             ],
             "tabs": [],
@@ -4849,7 +4949,8 @@
             "onValue": "",
             "lock": false,
             "onCreate": "",
-            "borderRadius": "auto"
+            "borderRadius": "auto",
+            "tabsPosition": "top"
           }
         ],
         "id": "main_panel",
@@ -4884,7 +4985,6 @@
         "padding": "auto",
         "justify": "start",
         "gridTemplate": "",
-        "verticalTabs": false,
         "traversing": false,
         "ignoreDefaults": false,
         "innerPadding": false,
@@ -4896,7 +4996,8 @@
         "onValue": "",
         "lock": false,
         "onCreate": "",
-        "borderRadius": "auto"
+        "borderRadius": "auto",
+        "tabsPosition": "top"
       }
     ],
     "innerPadding": true,
@@ -4911,6 +5012,7 @@
     "lock": false,
     "hideMenu": false,
     "onCreate": "",
-    "borderRadius": "auto"
+    "borderRadius": "auto",
+    "tabsPosition": "top"
   }
 }
